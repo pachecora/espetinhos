@@ -55,9 +55,10 @@ header > h1{
 /* ------------ Rodadapé -------------- */
 
 footer{
-    background-color: black;
-    color: white;
     text-align: center;
+    background-color: #9E7E51;
+    letter-spacing: 0.1em;
+    color: #463826;
     padding: 1em;
 }
 
