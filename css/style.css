@@ -19,15 +19,21 @@ nav{
 }
 
 nav > ul{
-    padding: 0;
+    padding: 0.5em;
+    text-align: center;
+
 }
 
 nav > ul > li{
     list-style: none;
+    display: inline-block;
+    text-align: center;
+
 }
 
 nav > ul > li > a{
     text-decoration: none;
+    padding: 0.5em;
 }
 
 
