@@ -10,11 +10,11 @@ body{
 
 /* ------------ Cabeçalho -------------- */
 header{
-    background-color: burlywood;
+    background-color: #9E7E51;
 }
 
 nav{
-    background-color: teal;
+    background-color: #EBBB78;
 
 }
 
@@ -27,16 +27,26 @@ nav > ul{
 nav > ul > li{
     list-style: none;
     display: inline-block;
-    text-align: center;
-
+    padding: 1.5em;
 }
 
 nav > ul > li > a{
     text-decoration: none;
-    padding: 0.5em;
+    padding: 1.5em;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
+nav > ul > li > a:hover{
+    text-decoration: underline;
+    background-color: #9b7d56;
+}
 
+header > h1{
+    text-align: center;
+    letter-spacing: 0.2em;
+    color: #463826;
+}
 
 /* ------------ Principal -------------- */
 
