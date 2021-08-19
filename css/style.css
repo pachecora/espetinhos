@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ Geral -------------- */
+
+
+
+/* ------------ Cabeçalho -------------- */
+header{
+    background-color: burlywood;
+}
+
+nav{
+    background-color: teal;
+
+}
+
+nav > ul{
+    padding: 0;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+
+
+/* ------------ Principal -------------- */
+
+
+
+/* ------------ Rodadapé -------------- */
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
