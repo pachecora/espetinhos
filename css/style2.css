@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 :root{
-    --cor1: #9E7E51;
     --cor0: #EBBB78;
+    --cor1: #9E7E51;
     --cor2: #9b7d56;
     --cor3: #463826;
     
@@ -17,11 +17,11 @@ body{
 }
 
 header{
-    background-color: #9E7E51;
+    background-color: var(--cor0);
 }
 
 nav{
-    background-color: #EBBB78;
+    background-color: var(--cor2);
 
 }
 
@@ -46,19 +46,19 @@ nav > ul > li > a{
 
 nav > ul > li > a:hover{
     text-decoration: underline;
-    background-color: #9b7d56;
+    background-color: var(--cor2);
 }
 
 header > h1{
     text-align: center;
     letter-spacing: 0.2em;
-    color: #463826;
+    color: var(--cor2);
 }
 
 footer{
     text-align: center;
-    background-color: #9E7E51;
+    background-color: var(--cor2);
     letter-spacing: 0.1em;
-    color: #463826;
+    color: var(--cor3);
     padding: 1em;
 }

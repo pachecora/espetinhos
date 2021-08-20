@@ -1,60 +1,16 @@
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /* ------------ Geral -------------- */
 
 
 
 /* ------------ Cabeçalho -------------- */
-header{
-    background-color: #9E7E51;
-}
 
-nav{
-    background-color: #EBBB78;
-
-}
-
-nav > ul{
-    padding: 0.5em;
-    text-align: center;
-
-}
-
-nav > ul > li{
-    list-style: none;
-    display: inline-block;
-    padding: 1.5em;
-}
-
-nav > ul > li > a{
-    text-decoration: none;
-    padding: 1.5em;
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
-nav > ul > li > a:hover{
-    text-decoration: underline;
-    background-color: #9b7d56;
-}
-
-header > h1{
-    text-align: center;
-    letter-spacing: 0.2em;
-    color: #463826;
-}
 
 /* ------------ Principal -------------- */
 .corpo{
     display: block;
     width: 80%;
     margin: auto;
-    border: 1px solid #EBBB78;
+    border: 1px solid var(--cor0);
     padding: 1.5em;
 }
 
@@ -68,7 +24,7 @@ header > h1{
 body > main > section > h1{
     margin: 0;
     padding: 0;
-    color: #463826;
+    color: var(--cor3);
 }
 
 body > main > section > img{
@@ -77,12 +33,4 @@ body > main > section > img{
 
 
 /* ------------ Rodadapé -------------- */
-
-footer{
-    text-align: center;
-    background-color: #9E7E51;
-    letter-spacing: 0.1em;
-    color: #463826;
-    padding: 1em;
-}
 
